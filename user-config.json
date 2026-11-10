@@ -1,0 +1,123 @@
+{
+  "trading": {
+    "quoteAsset": "USDT",
+    "budgetPerTrade": 50,
+    "maxOpenPositions": 5,
+    "gasReserve": 3,
+    "approvalTimeoutMin": 30,
+    "manualApproval": true,
+    "feePct": 0.1,
+    "autoExecute": true,
+    "splitEntry": {
+      "enabled": true,
+      "portion1Pct": 55,
+      "portion2Pct": 45
+    }
+  },
+  "whitelist": [],
+  "screening": {
+    "minVolume24h": 3000000,
+    "utbot": {
+      "enabled": true,
+      "keyValue": 2,
+      "atrPeriod": 10,
+      "timeframe": "4h",
+      "checkIntervalMin": 240,
+      "minVolume24h": 3000000,
+      "maxSignalsPerRun": 5,
+      "offsetMin": 1,
+      "filters": {
+        "adx": {
+          "enabled": false,
+          "period": 14,
+          "min": 25,
+          "requirePlusDI": false
+        },
+        "ema": {
+          "enabled": true,
+          "period": 50
+        },
+        "maxRisk": {
+          "enabled": false,
+          "maxPct": 10
+        }
+      },
+      "universeMode": "marketcap",
+      "topMarketCap": 100
+    }
+  },
+  "ai": {
+    "filterEnabled": false,
+    "maxCandidates": 5,
+    "minScore": 60,
+    "allowWait": false,
+    "failOpen": false,
+    "researchDelayMs": 20000
+  },
+  "management": {
+    "stopLossPct": -5,
+    "slBuffer": 0.005,
+    "minRiskReward": 2,
+    "trailingStop": {
+      "enabled": true,
+      "activateAfterTP1": true,
+      "activateAtProfitPct": 10,
+      "breakevenBufferPct": 1,
+      "trailPct": 5
+    },
+    "maxHoldHours": 0,
+    "takeProfitPct": 10,
+    "useFixedTP": false,
+    "exitOnUTBotSell": true,
+    "slMode": "utbot",
+    "maxSlPct": 15
+  },
+  "schedule": {
+    "managementIntervalMin": 1
+  },
+  "blacklist": [
+    "USDCUSDT",
+    "BUSDUSDT",
+    "TUSDUSDT",
+    "USDTUSDT",
+    "DAIUSDT",
+    "FRAXUSDT",
+    "USDPUSDT",
+    "GUSDUSDT",
+    "LUSDUSDT",
+    "MUSDUSDT",
+    "CUSDUSDT",
+    "EUSDUSDT",
+    "USDGOUSDT",
+    "USDDUSDT",
+    "USDEUSDT",
+    "USDXUSDT",
+    "SUSDUSDT",
+    "USDSUSDT",
+    "AUSDUSDT",
+    "RUSDUSDT",
+    "DUSDUSDT",
+    "USDKUSDT",
+    "PYUSDUSDT",
+    "FDUSDUSDT",
+    "AEUSDUSDT",
+    "USDBUSDT",
+    "USDNUSDT",
+    "EURCUSDT",
+    "EURSUSDT",
+    "EURTUSDT",
+    "GBPTUSDT",
+    "FRXETHUSDT",
+    "CBETHUSDT",
+    "STETHUSDT",
+    "WSTETHUSDT",
+    "RETHUSDT",
+    "SWETHUSDT",
+    "BETHUSDT",
+    "ANKRETHUSDT",
+    "WBTCUSDT",
+    "BTCBUSDT",
+    "HBTCUSDT",
+    "RENBTCUSDT"
+  ]
+}

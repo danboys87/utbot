@@ -1,0 +1,31 @@
+{
+  "positions": {},
+  "closed": [
+    {
+      "symbol": "JCTUSDT",
+      "entryPrice": 0.009026,
+      "quantity": 5539.55,
+      "orderId": "dryrun_1794227729625",
+      "budget": 50,
+      "score": 65,
+      "signals": {
+        "utbotSignal": {
+          "bullish": true,
+          "label": "UT Bot BUY [1D] — close 0.011351 cross above trailing stop 0.004475"
+        }
+      },
+      "slPrice": 0.004452813865719851,
+      "tp1Price": null,
+      "openedAt": "2026-11-09T12:35:29.626Z",
+      "peakPrice": 0.009026,
+      "trailingActive": false,
+      "partialSells": [],
+      "exitPrice": 0.006539,
+      "closedAt": "2026-11-10T09:07:31.429Z",
+      "reason": "manual_sell",
+      "pnlUsdt": -13.776860849999998,
+      "pnlPct": -27.553733658320407
+    }
+  ],
+  "totalPnlUsdt": -13.776860849999998
+}

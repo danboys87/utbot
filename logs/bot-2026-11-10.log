@@ -1,0 +1,257 @@
+[2026-11-10T09:28:51.455Z] [STARTUP     ] 🧪 DRY RUN mode - API connection skipped
+[2026-11-10T09:28:51.458Z] [STARTUP     ] Config:
+[2026-11-10T09:28:51.463Z] [STARTUP     ]   Budget/trade : 50 USDT
+[2026-11-10T09:28:51.465Z] [STARTUP     ]   Entry mode   : 🤖 AUTO EXECUTE (100%)
+[2026-11-10T09:28:51.466Z] [STARTUP     ]   Max posisi   : 5
+[2026-11-10T09:28:51.469Z] [STARTUP     ]   UTBot key    : 2
+[2026-11-10T09:28:51.470Z] [STARTUP     ]   UTBot ATR    : 10
+[2026-11-10T09:28:51.474Z] [STARTUP     ]   Exit SELL    : ON (ikuti UT Bot SELL)
+[2026-11-10T09:28:51.475Z] [STARTUP     ]   Trailing     : aktif di profit ≥ 10% | callback 3% | SL ke entry +1%
+[2026-11-10T09:28:51.477Z] [STARTUP     ]   AI Filter    : OFF
+[2026-11-10T09:28:51.481Z] [STARTUP     ]   Universe     : top 100 market cap (stablecoin dibuang)
+[2026-11-10T09:28:51.483Z] [STARTUP     ]   SL mode       : UT Bot trailing stop (maks 15% dari entry)
+[2026-11-10T09:28:51.484Z] [STARTUP     ] Jadwal:
+[2026-11-10T09:28:51.485Z] [STARTUP     ]   UTBot 1D   : setiap 1440 menit
+[2026-11-10T09:28:51.486Z] [STARTUP     ]   Management : setiap 1 menit
+[2026-11-10T09:28:51.534Z] [STATE       ] 💾 State dari lokal: 0 posisi terbuka
+[2026-11-10T09:28:51.535Z] [SYMBOL_FILTER] Memuat daftar symbol crypto spot dari Bitget...
+[2026-11-10T09:28:52.049Z] [SYMBOL_FILTER] ✅ Symbol cache updated: 560 crypto spot, 3109 non-crypto (tokenized/RWA) difilter
+[2026-11-10T09:28:52.050Z] [STARTUP     ] Menjalankan management cycle pertama...
+[2026-11-10T09:28:52.053Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:28:52.057Z] [CRON        ] Cron aktif:
+[2026-11-10T09:28:52.058Z] [CRON        ]   UTBot 1D  : 1 0 * * * (UTC) → setiap 1440 menit
+[2026-11-10T09:28:52.059Z] [CRON        ]   Management: */1 * * * * → setiap 1 menit
+[2026-11-10T09:28:52.072Z] [TELEGRAM    ] Telegram tidak dikonfigurasi
+[2026-11-10T09:28:52.088Z] [API_SERVER  ] ✅ Dashboard API berjalan di http://localhost:3000
+[2026-11-10T09:28:52.089Z] [API_SERVER  ]    Buka dashboard.html di browser dan set API URL ke http://localhost:3000
+[2026-11-10T09:29:00.075Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:29:54.537Z] [STARTUP     ] 🧪 DRY RUN mode - API connection skipped
+[2026-11-10T09:29:54.546Z] [STARTUP     ] Config:
+[2026-11-10T09:29:54.550Z] [STARTUP     ]   Budget/trade : 50 USDT
+[2026-11-10T09:29:54.557Z] [STARTUP     ]   Entry mode   : 🤖 AUTO EXECUTE (100%)
+[2026-11-10T09:29:54.559Z] [STARTUP     ]   Max posisi   : 5
+[2026-11-10T09:29:54.562Z] [STARTUP     ]   UTBot key    : 2
+[2026-11-10T09:29:54.565Z] [STARTUP     ]   UTBot ATR    : 10
+[2026-11-10T09:29:54.571Z] [STARTUP     ]   Exit SELL    : ON (ikuti UT Bot SELL)
+[2026-11-10T09:29:54.576Z] [STARTUP     ]   Trailing     : aktif di profit ≥ 10% | callback 5% | SL ke entry +1%
+[2026-11-10T09:29:54.578Z] [STARTUP     ]   AI Filter    : OFF
+[2026-11-10T09:29:54.584Z] [STARTUP     ]   Universe     : top 100 market cap (stablecoin dibuang)
+[2026-11-10T09:29:54.587Z] [STARTUP     ]   SL mode       : UT Bot trailing stop (maks 15% dari entry)
+[2026-11-10T09:29:54.592Z] [STARTUP     ] Jadwal:
+[2026-11-10T09:29:54.598Z] [STARTUP     ]   UTBot 1D   : setiap 1440 menit
+[2026-11-10T09:29:54.603Z] [STARTUP     ]   Management : setiap 1 menit
+[2026-11-10T09:29:54.692Z] [STATE       ] 💾 State dari lokal: 0 posisi terbuka
+[2026-11-10T09:29:54.694Z] [SYMBOL_FILTER] Memuat daftar symbol crypto spot dari Bitget...
+[2026-11-10T09:29:55.258Z] [SYMBOL_FILTER] ✅ Symbol cache updated: 560 crypto spot, 3109 non-crypto (tokenized/RWA) difilter
+[2026-11-10T09:29:55.260Z] [STARTUP     ] Menjalankan management cycle pertama...
+[2026-11-10T09:29:55.263Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:29:55.293Z] [CRON        ] Cron aktif:
+[2026-11-10T09:29:55.294Z] [CRON        ]   UTBot 1D  : 1 0 * * * (UTC) → setiap 1440 menit
+[2026-11-10T09:29:55.297Z] [CRON        ]   Management: */1 * * * * → setiap 1 menit
+[2026-11-10T09:29:55.320Z] [TELEGRAM    ] Telegram tidak dikonfigurasi
+[2026-11-10T09:29:55.351Z] [API_SERVER  ] ✅ Dashboard API berjalan di http://localhost:3000
+[2026-11-10T09:29:55.353Z] [API_SERVER  ]    Buka dashboard.html di browser dan set API URL ke http://localhost:3000
+[2026-11-10T09:30:00.322Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:31:00.416Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:32:00.457Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:33:00.506Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:51:18.601Z] [STARTUP     ] 🧪 DRY RUN mode - API connection skipped
+[2026-11-10T09:51:18.606Z] [STARTUP     ] Config:
+[2026-11-10T09:51:18.609Z] [STARTUP     ]   Budget/trade : 50 USDT
+[2026-11-10T09:51:18.612Z] [STARTUP     ]   Entry mode   : 🤖 AUTO EXECUTE (100%)
+[2026-11-10T09:51:18.615Z] [STARTUP     ]   Max posisi   : 5
+[2026-11-10T09:51:18.619Z] [STARTUP     ]   UTBot key    : 2
+[2026-11-10T09:51:18.626Z] [STARTUP     ]   UTBot ATR    : 10
+[2026-11-10T09:51:18.630Z] [STARTUP     ]   Exit SELL    : ON (ikuti UT Bot SELL)
+[2026-11-10T09:51:18.633Z] [STARTUP     ]   Trailing     : aktif di profit ≥ 10% | callback 5% | SL ke entry +1%
+[2026-11-10T09:51:18.639Z] [STARTUP     ]   AI Filter    : OFF
+[2026-11-10T09:51:18.642Z] [STARTUP     ]   Universe     : top 100 market cap (stablecoin dibuang)
+[2026-11-10T09:51:18.647Z] [STARTUP     ]   SL mode       : UT Bot trailing stop (maks 15% dari entry)
+[2026-11-10T09:51:18.653Z] [STARTUP     ] Jadwal:
+[2026-11-10T09:51:18.658Z] [STARTUP     ]   UTBot 1D   : setiap 1440 menit
+[2026-11-10T09:51:18.660Z] [STARTUP     ]   Management : setiap 1 menit
+[2026-11-10T09:51:18.758Z] [STATE       ] 💾 State dari lokal: 0 posisi terbuka
+[2026-11-10T09:51:18.759Z] [SYMBOL_FILTER] Memuat daftar symbol crypto spot dari Bitget...
+[2026-11-10T09:51:19.316Z] [SYMBOL_FILTER] ✅ Symbol cache updated: 560 crypto spot, 3109 non-crypto (tokenized/RWA) difilter
+[2026-11-10T09:51:19.319Z] [STARTUP     ] Menjalankan management cycle pertama...
+[2026-11-10T09:51:19.321Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:51:19.325Z] [CRON        ] Cron aktif:
+[2026-11-10T09:51:19.326Z] [CRON        ]   UTBot 1D  : 1 0 * * * (UTC) → setiap 1440 menit
+[2026-11-10T09:51:19.327Z] [CRON        ]   Management: */1 * * * * → setiap 1 menit
+[2026-11-10T09:51:19.339Z] [TELEGRAM    ] Telegram tidak dikonfigurasi
+[2026-11-10T09:51:19.354Z] [API_SERVER  ] ✅ Dashboard API berjalan di http://localhost:3000
+[2026-11-10T09:51:19.355Z] [API_SERVER  ]    Buka dashboard.html di browser dan set API URL ke http://localhost:3000
+[2026-11-10T09:52:00.374Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:52:00.701Z] [CRON        ] 🔄 Restart cron (timeframe 4H)
+[2026-11-10T09:52:00.703Z] [CRON        ] Cron aktif:
+[2026-11-10T09:52:00.707Z] [CRON        ]   UTBot 4H  : 1 */4 * * * (UTC) → setiap 240 menit
+[2026-11-10T09:52:00.710Z] [CRON        ]   Management: */1 * * * * → setiap 1 menit
+[2026-11-10T09:52:18.105Z] [STARTUP     ] 🧪 DRY RUN mode - API connection skipped
+[2026-11-10T09:52:18.112Z] [STARTUP     ] Config:
+[2026-11-10T09:52:18.117Z] [STARTUP     ]   Budget/trade : 50 USDT
+[2026-11-10T09:52:18.122Z] [STARTUP     ]   Entry mode   : 🤖 AUTO EXECUTE (100%)
+[2026-11-10T09:52:18.128Z] [STARTUP     ]   Max posisi   : 5
+[2026-11-10T09:52:18.131Z] [STARTUP     ]   UTBot key    : 2
+[2026-11-10T09:52:18.135Z] [STARTUP     ]   UTBot ATR    : 10
+[2026-11-10T09:52:18.141Z] [STARTUP     ]   Exit SELL    : ON (ikuti UT Bot SELL)
+[2026-11-10T09:52:18.143Z] [STARTUP     ]   Trailing     : aktif di profit ≥ 10% | callback 5% | SL ke entry +1%
+[2026-11-10T09:52:18.147Z] [STARTUP     ]   AI Filter    : OFF
+[2026-11-10T09:52:18.154Z] [STARTUP     ]   Universe     : top 100 market cap (stablecoin dibuang)
+[2026-11-10T09:52:18.156Z] [STARTUP     ]   SL mode       : UT Bot trailing stop (maks 15% dari entry)
+[2026-11-10T09:52:18.160Z] [STARTUP     ] Jadwal:
+[2026-11-10T09:52:18.166Z] [STARTUP     ]   UTBot 4H   : setiap 240 menit
+[2026-11-10T09:52:18.171Z] [STARTUP     ]   Management : setiap 1 menit
+[2026-11-10T09:52:18.250Z] [STATE       ] 💾 State dari lokal: 0 posisi terbuka
+[2026-11-10T09:52:18.251Z] [SYMBOL_FILTER] Memuat daftar symbol crypto spot dari Bitget...
+[2026-11-10T09:52:19.605Z] [SYMBOL_FILTER] ✅ Symbol cache updated: 560 crypto spot, 3109 non-crypto (tokenized/RWA) difilter
+[2026-11-10T09:52:19.606Z] [STARTUP     ] Menjalankan management cycle pertama...
+[2026-11-10T09:52:19.610Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:52:19.613Z] [CRON        ] Cron aktif:
+[2026-11-10T09:52:19.614Z] [CRON        ]   UTBot 4H  : 1 */4 * * * (UTC) → setiap 240 menit
+[2026-11-10T09:52:19.615Z] [CRON        ]   Management: */1 * * * * → setiap 1 menit
+[2026-11-10T09:52:19.624Z] [TELEGRAM    ] Telegram tidak dikonfigurasi
+[2026-11-10T09:52:19.637Z] [API_SERVER  ] ✅ Dashboard API berjalan di http://localhost:3000
+[2026-11-10T09:52:19.638Z] [API_SERVER  ]    Buka dashboard.html di browser dan set API URL ke http://localhost:3000
+[2026-11-10T09:53:00.649Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:54:00.691Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T09:55:00.730Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:23:39.871Z] [STARTUP     ] 🧪 DRY RUN mode - API connection skipped
+[2026-11-10T10:23:39.876Z] [STARTUP     ] Config:
+[2026-11-10T10:23:39.878Z] [STARTUP     ]   Budget/trade : 50 USDT
+[2026-11-10T10:23:39.882Z] [STARTUP     ]   Entry mode   : 🤖 AUTO EXECUTE (100%)
+[2026-11-10T10:23:39.883Z] [STARTUP     ]   Max posisi   : 5
+[2026-11-10T10:23:39.888Z] [STARTUP     ]   UTBot key    : 2
+[2026-11-10T10:23:39.890Z] [STARTUP     ]   UTBot ATR    : 10
+[2026-11-10T10:23:39.894Z] [STARTUP     ]   Exit SELL    : ON (ikuti UT Bot SELL)
+[2026-11-10T10:23:39.899Z] [STARTUP     ]   Trailing     : aktif di profit ≥ 10% | callback 5% | SL ke entry +1%
+[2026-11-10T10:23:39.900Z] [STARTUP     ]   AI Filter    : OFF
+[2026-11-10T10:23:39.901Z] [STARTUP     ]   Universe     : top 100 market cap (stablecoin dibuang)
+[2026-11-10T10:23:39.905Z] [STARTUP     ]   SL mode       : UT Bot trailing stop (maks 15% dari entry)
+[2026-11-10T10:23:39.907Z] [STARTUP     ] Jadwal:
+[2026-11-10T10:23:39.911Z] [STARTUP     ]   UTBot 4H   : setiap 240 menit
+[2026-11-10T10:23:39.912Z] [STARTUP     ]   Management : setiap 1 menit
+[2026-11-10T10:23:39.964Z] [STATE       ] 💾 State dari lokal: 0 posisi terbuka
+[2026-11-10T10:23:39.965Z] [SYMBOL_FILTER] Memuat daftar symbol crypto spot dari Bitget...
+[2026-11-10T10:23:40.486Z] [SYMBOL_FILTER] ✅ Symbol cache updated: 560 crypto spot, 3109 non-crypto (tokenized/RWA) difilter
+[2026-11-10T10:23:40.487Z] [STARTUP     ] Menjalankan management cycle pertama...
+[2026-11-10T10:23:40.490Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:23:40.494Z] [CRON        ] Cron aktif:
+[2026-11-10T10:23:40.495Z] [CRON        ]   UTBot 4H  : 1 */4 * * * (UTC) → setiap 240 menit
+[2026-11-10T10:23:40.495Z] [CRON        ]   Management: */1 * * * * → setiap 1 menit
+[2026-11-10T10:23:40.506Z] [TELEGRAM    ] Telegram tidak dikonfigurasi
+[2026-11-10T10:23:40.520Z] [API_SERVER  ] ✅ Dashboard API berjalan di http://localhost:3000
+[2026-11-10T10:23:40.522Z] [API_SERVER  ]    Buka dashboard.html di browser dan set API URL ke http://localhost:3000
+[2026-11-10T10:24:00.555Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:25:00.617Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:26:00.676Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:27:00.708Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:28:00.754Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:29:00.795Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:30:00.826Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:31:00.970Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:32:00.028Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:33:00.061Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:34:00.095Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:35:00.144Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:36:00.202Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:37:00.241Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:38:00.277Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:39:00.321Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:40:00.363Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:41:00.393Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:42:00.420Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:43:00.476Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:44:00.513Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:45:00.549Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:46:00.593Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:47:00.648Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T10:48:00.682Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:18:00.290Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:19:00.916Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:20:00.938Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:21:00.964Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:22:00.995Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:23:00.029Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:24:00.059Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:25:00.108Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:26:00.141Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:27:00.176Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:28:00.210Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:29:00.238Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:30:00.280Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:31:00.316Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:32:00.347Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:33:00.389Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:34:00.447Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:35:00.489Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:36:00.517Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:37:00.548Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:38:00.575Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:39:00.599Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:40:00.667Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:41:00.705Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:42:00.763Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:43:00.829Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:44:00.893Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:45:00.993Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:46:00.038Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:47:00.094Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:48:00.133Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:49:00.212Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:50:00.263Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:51:00.313Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:52:00.369Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:53:00.417Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:54:00.459Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:55:00.514Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:56:00.542Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:57:00.575Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:58:00.600Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T11:59:00.623Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:00:00.653Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:01:00.688Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:01:00.712Z] [CRON        ]   UTBot 4H dijalankan (offset +1m setelah candle close)
+[2026-11-10T12:01:00.715Z] [SCREENER    ] 📡 Menjalankan UT Bot Alert Screener (4H)...
+[2026-11-10T12:01:01.463Z] [UTBOT       ] ══ UT Bot Alert Screener (4H | key=2 atr=10 | mode=all | filter BUY: close>EMA50) ══
+[2026-11-10T12:01:01.466Z] [SYMBOL_FILTER] Filter: 3669 → 560 ticker (3109 non-crypto dibuang)
+[2026-11-10T12:01:01.482Z] [UTBOT       ]   Universe: top 100 market cap (stablecoin dibuang) → 73 koin tersedia di Bitget
+[2026-11-10T12:01:01.482Z] [UTBOT       ] Scanning 73 koin (4H) — 0 posisi terbuka diprioritaskan...
+[2026-11-10T12:01:04.253Z] [UTBOT       ]   ⛔ TRXUSDT BUY ditolak filter: close 0.31932 <= EMA50 0.319769
+[2026-11-10T12:01:12.631Z] [UTBOT       ]   🔴 SELL [4H]: XAUTUSDT @ 4060.93 | TS=4114.255380
+[2026-11-10T12:01:15.158Z] [UTBOT       ]   🔴 SELL [4H]: QNTUSDT @ 187.02 | TS=198.025476
+[2026-11-10T12:01:18.226Z] [UTBOT       ]   🔴 SELL [4H]: AAVEUSDT @ 125.08 | TS=132.040039
+[2026-11-10T12:01:18.645Z] [UTBOT       ]   🔴 SELL [4H]: PAXGUSDT @ 4063.85 | TS=4115.412414
+[2026-11-10T12:01:20.681Z] [UTBOT       ]   ⛔ MUSDT BUY ditolak filter: close 0.813524 <= EMA50 0.826690
+[2026-11-10T12:01:29.641Z] [UTBOT       ]   🔴 SELL [4H]: POLUSDT @ 0.08747 | TS=0.090841
+[2026-11-10T12:01:46.118Z] [UTBOT       ] UT Bot selesai → 0 BUY, 5 SELL signal
+[2026-11-10T12:01:46.120Z] [UTBOT       ]   Skip 5 SELL (tidak ada posisi): XAUTUSDT, QNTUSDT, AAVEUSDT, PAXGUSDT, POLUSDT
+[2026-11-10T12:02:00.720Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:03:00.754Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:04:00.791Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:05:00.813Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:06:00.849Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:07:00.890Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:08:00.927Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:09:00.958Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:10:00.009Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:11:00.055Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:12:00.089Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:13:00.116Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:14:00.148Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:15:00.177Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:16:00.211Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:17:00.236Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:18:00.264Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:19:00.288Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:20:00.311Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:21:00.337Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:22:00.366Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:23:00.392Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:24:00.420Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:25:00.448Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:26:00.480Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:27:00.506Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:28:00.534Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:29:00.630Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:30:00.671Z] [MANAGER     ] Tidak ada posisi terbuka
+[2026-11-10T12:31:00.717Z] [MANAGER     ] Tidak ada posisi terbuka
